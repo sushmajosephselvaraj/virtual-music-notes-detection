@@ -37,7 +37,7 @@ hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 cap = cv2.VideoCapture(0)
 print("Press 'q' to quit")
 
-# ✅ Track last note played
+
 last_note = None
 
 def count_fingers(hand_landmarks):
